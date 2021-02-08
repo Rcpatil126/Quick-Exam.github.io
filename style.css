@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    
+
+}
+html{
+    font-size: 62.5%;
+}
+.main-div {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 92%, 94%);
+}
+.inner-div{
+    width: 70vh;
+   padding: 3rem 8rem;
+   border-radius: 5rem;
+   box-shadow: 0 1rem 1rem -0.7rem black;
+    background-color: #fff;
+}
+.inner-div h2{
+font-size: 3.5rem;
+font-weight: 400;
+margin:1rem 0 4rem 0 ;
+
+
+}
+.inner-div li{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input {
+    cursor: pointer;
+}
+#submit, btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 3rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgba(12, 250, 24, 0.486);
+    cursor: pointer;
+    margin-top: 4rem;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+#submit:hover{
+
+    background: none;
+    border: 2px solid black;
+    color: red;
+}
+#showScore{
+    background-color: rgb(207, 221, 235);
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 2rem 1rem -0.7rem rgb(92, 86, 86);
+}
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color: #2d3436;
+    cursor: pointer;
+}
+#showScore .btn:hover{
+    color: #fff;
+}
+
+.scoreArea{
+    display: none;
+}
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+#showScore .btn{
+    margin-top: 1rem;
+    background-color: rgb(0, 238, 255);
+    color: black;
+    font-size: 2rem;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+#showScore .btn:hover{
+    background: black;
+    border: 2px solid red;
+    color:wheat;
+}
+
+hr{
+    color:aqua;
+    font-size: 3px;
+}
+@media(max-width: 991px){
+
+    .inner-div{
+        width: 50vh;
+        padding: 3rem 3rem;
+        border-radius: 3rem;
+        box-shadow: 0 2rem 1rem -0.7rem black;
+        background-color: #fff;
+        margin: auto;
+        
+    }
+
+    .inner-div li{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        list-style: none;
+    }
+    #submit, btn{
+        padding: 1rem 3rem;
+        outline: none;
+        font-size: 2rem;
+        font-weight: 400;
+        display: block;
+        border: 1px solid black;
+        margin: auto;
+        outline: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        background: linear-gradient(-135deg, #92eb03, #e5f504);
+        cursor: pointer;
+        margin-top: 4rem;
+        border-radius: 5px;
+        box-shadow: 0 2rem 1rem -0.7rem rgb(94, 87, 87);
+    }
+    .inner-div h2{
+        font-size: 3rem;
+        margin-bottom: -100px;
+        font-weight: 400;
+        margin:1rem 0 4rem 0 ;
+        
+        
+        }
+    
+
+        #showScore .btn{
+            margin-top: 1rem;
+            background: linear-gradient(-135deg, #33e9e9, #04d8c6);
+            color: black;
+            font-size: 2rem;
+            padding: 4px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            justify-content: center;
+            box-shadow: 0 2rem 1rem -0.7rem black;
+        }
+        #showScore .btn:hover{
+            background: none;
+            border: 2px solid red;
+            color: black;
+        }
+        #showScore h3{
+            font-size: 3rem;
+            text-align: center;
+            border-left: 30%;
+        }
+
+        h1{
+            background-color: #7a7577;
+            color: wheat;
+            font-size: 20px;
+            border: 2px solid rgb(53, 52, 52);
+            box-shadow: 0 1rem 1rem -0.7rem black;
+
+        }
+        h5{
+            color: rgb(146, 131, 131);
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h5 span{
+            color: rgb(5, 5, 5);
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+}
+
