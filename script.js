@@ -1,12 +1,12 @@
 const quizDB = [
     {
-        question: " Q1:Which type of JavaScript language is",
+        question: " Q1:print( 2**3 + (5+6)** (1+1))",
 
-        a: "Object-Oriented",
-        b: "Object-Based",
-        c: "Assembly-language",
-        d: "High-level",
-        ans:"ans2"
+        a: "129",
+        b: "156",
+        c: "212",
+        d: "176",
+        ans:"ans1"
 
     },
     {
@@ -29,22 +29,22 @@ const quizDB = [
         ans:"ans3"
     },
     {
-        question: "Q4:The function and  var are known as",
+        question: "Q4:Which of the following concept is not part of python",
 
-        a: "Keywords",
-        b: "Data types",
-        c: "Declaration statements",
-        d: "Prototypes",
-        ans:"ans3"
+        a: "Pointers",
+        b: "Loops",
+        c: "Dynamic Typing",
+        d: "None the above",
+        ans:"ans1"
     },
 
     {
-        question: "Q5:What is the HTML tag under which one can write the JavaScript code?",
-         a: "<javascript>",
-         b: "<scripted>",
-         c: "<script>",
-         d: "<js>",
-         ans:"ans3"
+        question: "Q5:which of the following statements are used in Exceptin Handling in python",
+         a: "Try",
+         b: "except",
+         c: "finally",
+         d: "all of the above",
+         ans:"ans4"
     },
 
 
@@ -70,65 +70,65 @@ const quizDB = [
     },
 
     {
-        question: "Q8:In the JavaScript, which one of the following is not considered as an error:?",
+        question: "Q8: what will be the output -- a = [1,2] print(a * 3)",
 
-        a: "Syntax error",
-        b: "Missing of semicolons",
-        c: "Division by zero",
-        d: "Missing of Bracket",
+        a: "[1,2][1.2][1,2]",
+        b: "([1,2][1.2][1,2])",
+        c: "[1,2,1,2,1,2]",
+        d: "([1,2,1,2,1,2])",
         ans:"ans3"
     },
 
     {
-        question: "Q9:Which of the following number object function returns the value of the number?",
+        question: "Q9:Which of the following function convert date to time in python",
 
-        a: "toString()",
-        b: "valueOf()",
-        c: "toLocaleString()",
-        d: "toPrecision()",
+        a: "strptime",
+        b: "strptime()",
+        c: "strftime()",
+        d: "datetime()",
         ans:"ans2"
     },
 
     {
-        question: "Q10:In JavaScript, what will be used for calling the function definition expression?",
+        question: "Q10: As what datatype are the *args stored when passed into a function",
 
-        a: "Function prototype",
-        b: "Function literal",
-        c: "Function calling",
-        d: "Function declaration",
+        a: "List",
+        b: "Tuple",
+        c: "Dictionary",
+        d: "Set",
         ans:"ans2"
     },
 
     
     {
-        question: "Q11:If we want define style for an unique element, then which css selector will we use ?",
+        question: "Q11:As what datatypeare the *kwargs stored when passed into a function ?",
 
-        a: "Id",
-        b: "text",
-        c: "class",
-        d: "name",
-        ans:"ans1"
+        a: "Lists",
+        b: "Tuples",
+        c: "Dictionary",
+        d: "None of the above",
+        ans:"ans3"
     },
 
     
     {
-        question: "Q12:	If we want to show an Arrow as cursor, then which value we will use ?",
+        question: "Q12:	Which of the following is not a valid set operation in python ?",
 
-        a: "pointer",
-        b: "default",
-        c: "arrow",
-        d: "arr",
-        ans:"ans2"
+        a: "Union",
+        b: "Intersection",
+        c: "Difference",
+        d: "None of the Above",
+        ans:"ans4"
     },
 
       
     {
-        question: "Q13:From which tag descriptive list starts ?",
+        question: "Q13:create an empty set in python ?",
 
-        a: "<LL>",
-        b: "<DD>",
-        c: "<DL>",
-        d: "<DS>",
+        a: "()",
+        b: "{}",
+        c: "[]",
+        d: "set()",
         ans:"ans3"
     },
 
@@ -143,7 +143,7 @@ const quizDB = [
         ans:"ans2"
     },
     {
-        question: "Q15:Web pages starts with which ofthe following tag?",
+        question: "Q15:Web pages starts with which of the following tag?",
 
         a: "<Body>",
         b: "<Title>",
@@ -153,53 +153,53 @@ const quizDB = [
     },
 
     {
-        question: "Q16:HTML is a subset of ?",
+        question: "Q16:What is output of print(math.pow(3,2)) ?",
 
-        a: "SGMT",
-        b: "SGML",
-        c: "SGMD",
-        d: "None of these",
+        a: "0.9",
+        b: "9",
+        c: "9.0",
+        d: "9.00",
+        ans:"ans3"
+    },
+
+    {
+        question: "Q17:What is the method inside the class in python language",
+
+        a: "Object",
+        b: "Function",
+        c: "Attribute",
+        d: "Argumnet",
         ans:"ans2"
     },
 
     {
-        question: "Q17:Which of the following is a container?",
+        question: "Q18:Which of the followinf data structures finds its use in recursion",
 
-        a: "<SELECT>",
-        b: "<BODY>",
-        c: "<INPUT",
-        d: "Both (a) and (b)",
-        ans:"ans4"
-    },
-
-    {
-        question: "Q18:<Base> tag is designed to appear only between",
-
-        a: "<HEAD>",
-        b: "<TITLE>",
-        c: "<BODY>",
-        d: "<FORM>",
+        a: "Stack",
+        b: "Array",
+        c: "LinkedList",
+        d: "Queues",
         ans:"ans1"
     },
 
     {
-        question: "Q19: The map definition file is generally stored in",
+        question: "Q19:How is an array initialized in c language ?",
 
-        a: "CGI-BIN",
-        b: "RECYCLE-BIN",
-        c: "BIN",
-        d: "All of these",
+        a: "int a[3] = {1,2,3}",
+        b: "int a={1,2,3}",
+        c: "int a[] = new int[3]",
+        d: "int a(3) = [1,2,3]",
         ans:"ans1"
     },
 
     {
-        question: "Q20:Main container for <TR>, <TD> and <TH> is",
+        question: "Q20:Which of the following is not the type of queue ?",
 
-        a: "<TABLE>",
-        b: "<GROUP>",
-        c: "<DATA>",
-        d: "All of these",
-        ans:"ans1"
+        a: "Priority queue",
+        b: "Single-ended queue",
+        c: "Circular queue",
+        d: "Ordinary queue",
+        ans:"ans2"
     },
 
     {
